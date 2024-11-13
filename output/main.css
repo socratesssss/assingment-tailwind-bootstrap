@@ -35,4 +35,13 @@
     .msn-btn{
         @apply org font-bold rounded-full  border-2 py-2 px-4 mt-16 md:mt-36 border-[#f33445]
     }
+    .dis-bg-img{
+        @apply z-0 absolute right-16 top-0 h-full
+    }
+    .dis-h3{
+        @apply font-bold text-2xl mt-12
+    }
+    .dis-p{
+        @apply font-medium text-sm mt-6 text-[#757095]
+    }
 }
