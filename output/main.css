@@ -33,7 +33,7 @@
         @apply text-lg md:mt-20 mt-10 md:w-2/3 w-full
     }
     .msn-btn{
-        @apply org font-bold rounded-full  border-2 py-2 px-4 mt-16 md:mt-28 border-[#f33445]
+        @apply hover:scale-110 cursor-pointer duration-300 transition-all hover:shadow-xl shadow-gray-900 org font-bold rounded-full  border-2 py-2 px-4 mt-16 md:mt-28 border-[#f33445]
     }
     .dis-bg-img{
         @apply z-0 absolute right-16 top-0 h-full
@@ -48,7 +48,15 @@
         @apply flex items-center justify-center mt-8 h-8
     }
     .f-t{
-        @apply font-normal md:text-base  dark:text-gray-400 text-[#20484F]
+        @apply font-normal md:text-base text-xs  dark:text-gray-400 text-[#20484F]
 
     };
+
+    .ats10{
+        @apply hover:scale-110 cursor-pointer duration-300 transition-all hover:shadow-xl shadow-gray-900
+    }
+    .ats25{
+        @apply hover:scale-125 cursor-pointer duration-300 transition-all 
+    }
+   
 }
