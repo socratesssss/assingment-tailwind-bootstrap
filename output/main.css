@@ -22,4 +22,17 @@
     .c4u-p{
         @apply text-sm font-normal pb-10 text-white mt-7
     }
+
+    .msn-top{
+        @apply uppercase org text-sm md:mt-40 mt-16
+    }
+    .msn-head{
+        @apply font-semibold text-4xl mt-5 text-[#2D3142]
+    }
+    .msn-p{
+        @apply text-lg md:mt-20 mt-10 md:w-2/3 w-full
+    }
+    .msn-btn{
+        @apply org font-bold rounded-full  border-2 py-2 px-4 mt-16 md:mt-36 border-[#f33445]
+    }
 }
