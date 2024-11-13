@@ -33,7 +33,7 @@
         @apply text-lg md:mt-20 mt-10 md:w-2/3 w-full
     }
     .msn-btn{
-        @apply org font-bold rounded-full  border-2 py-2 px-4 mt-16 md:mt-36 border-[#f33445]
+        @apply org font-bold rounded-full  border-2 py-2 px-4 mt-16 md:mt-28 border-[#f33445]
     }
     .dis-bg-img{
         @apply z-0 absolute right-16 top-0 h-full
@@ -43,5 +43,8 @@
     }
     .dis-p{
         @apply font-medium text-sm mt-6 text-[#757095]
+    }
+    .card-icon{
+        @apply flex items-center justify-center mt-8 h-8
     }
 }
