@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities{
+    .org{
+        @apply  text-[#f33445] 
+    }
+    .normal-p{
+       @apply md:text-xl text-base font-normal text-white
+    }
+}
