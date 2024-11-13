@@ -48,7 +48,7 @@
         @apply flex items-center justify-center mt-8 h-8
     }
     .f-t{
-        @apply font-normal md:text-base text-xs  dark:text-gray-400 text-[#20484F]
+        @apply font-normal transition-all duration-300  hover:scale-x-110 cursor-pointer md:text-base text-xs  dark:text-gray-400 text-[#20484F]
 
     };
 
@@ -57,6 +57,9 @@
     }
     .ats25{
         @apply hover:scale-125 cursor-pointer duration-300 transition-all 
+    }
+    .h-t{
+        @apply  font-bold md:text-lg text-sm   cursor-pointer
     }
    
 }
