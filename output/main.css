@@ -47,4 +47,8 @@
     .card-icon{
         @apply flex items-center justify-center mt-8 h-8
     }
+    .f-t{
+        @apply font-normal md:text-base  dark:text-gray-400 text-[#20484F]
+
+    };
 }
